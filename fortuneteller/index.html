@@ -13,6 +13,7 @@
   </head>
   <body>
     <!-- this is the start of content -->
+   <img src="akinator.jpg" width="200">
     <h1>
       Fortune Teller
     </h1>
@@ -23,6 +24,19 @@
       <label for="questionfield">Question:</label>
       <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
       <br>
+      <select name="age" id="age">
+        <option value="" disabled selected>select your age</option>
+          <option value="0-5">0-5</option>
+          <option value="6-10">6-10</option>
+          <option value="11-15">11-15</option>
+          <option value="16-20">16-20</option>
+      </select>
+      <br>
+      <input type="radio" id="radio1" name="radioquestion">
+      <label for="radio1">Are you ready for your future?</label>
+      <br>
+      
+
       <input type="submit">
     </form>
     <div id="fortune"></div>
